@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import picture from '../../assets/images/Group3.png';
 
 export default class Managment extends Component {
   render() {
@@ -35,8 +36,8 @@ Streamline screening & case management                </h1>
                 </div>
                 
             </div>
-            <div className="row-span-1 p-0 ">
-                <img src="{heroImg}" alt="image description" className=" w-full h-full object-cover " />
+            <div className="row-span-1 mt-10 ">
+                <img src={picture} alt="image description" className=" w-full h-full object-cover " />
             </div>
         </div>
     )
