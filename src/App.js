@@ -1,10 +1,17 @@
 import React from 'react';
 import './index.css';
-
+import Navbar from './components/Navbar/Navbar';
+import HeroSection from './components/HeroSection/HeroSection';
 
 function App() {
   return (
-    <h1 className='text-2xl font-bold text-blue-500'>hello </h1>
+    <div>
+      <Navbar />
+      <main>
+        <HeroSection />
+   
+      </main>
+    </div>
   );
 }
 
