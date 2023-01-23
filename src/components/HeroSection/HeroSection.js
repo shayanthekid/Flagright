@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import heroImg from '../../assets/images/heroimg.png';
+import heroImg from '../../assets/images/heroimg2.png';
 
 export default class HeroSection extends Component {
   render() {
     return (
-        <div style={{ backgroundColor: "#f8fafe" }} className="grid grid-rows-2 justify-center items-center h-screen p-7">
+        <div style={{ backgroundColor: "#f8fafe" }} className="grid grid-rows-2 justify-center items-center h-screen p-7 mt-5">
             <div className="row-span-1">
                 <h1 className="font-sans font-bold text-left text-3xl p-3">
                     Sanctions, PEP and media checks on a centralized platform for all AML compliance needs
@@ -34,8 +34,8 @@ export default class HeroSection extends Component {
                         <path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z" />  </svg>
                 </div>
             </div>
-            <div className="row-span-1">
-                <img src={heroImg} alt="image description" className="w-full h-full object-cover" />
+            <div className="row-span-1 p-0 ">
+                <img src={heroImg} alt="image description" className=" w-full h-full object-cover " />
             </div>
         </div>
     )
