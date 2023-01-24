@@ -7,6 +7,7 @@ import Organization from './components/homepage_components/Organization';
 import Managment from './components/homepage_components/Managment';
 import Services from './components/homepage_components/Services';
 import Partners from './components/homepage_components/Partners';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div>
@@ -18,6 +19,7 @@ function App() {
         <Managment />
         <Services />
         <Partners />
+        <Footer />
       </main>
     </div>
   );

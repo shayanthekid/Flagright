@@ -4,7 +4,7 @@ import picture from '../../assets/images/Group3.png';
 export default class Managment extends Component {
   render() {
     return (
-        <div style={{ backgroundColor: "#f8fafe" }} className="grid grid-rows-2 justify-center items-center h-screen p-7 mt-5">
+        <div style={{ backgroundColor: "#f8fafe" }} className="grid grid-rows-2 justify-center items-center h-screen p-7 mt-5 -mb-20">
             <div className="row-span-1">
                 <h1 className="font-sans font-bold text-left text-3xl p-3">
 Streamline screening & case management                </h1>
