@@ -3,7 +3,9 @@ import rocket from '../../assets/images/rocket.png';
 import cloud from '../../assets/images/cloud.png';
 import bolt from '../../assets/images/bolt.png';
 import usage from '../../assets/images/usage.png';
-
+import response from '../../assets/images/response.png';
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default class Services extends Component {
   render() {
     return (
@@ -53,13 +55,28 @@ Flagright API is always fast at no additional cost even for complex use cases.  
                     </div>
                 </div>
                 <div className="row-span-1 mx-10 mt-8 flex items-start">
-                    <div className="">
-                        <img src={usage} className="w-10 h-10 mr-2 mb-2" alt="item1" />
-                        <div>
-                            <h3 className="text-lg font-medium text-white">Usage-based pricing</h3>
-                            <p className="text-sm text-white">
-                                Flexible payment plans that help you realize ROI faster                                </p>
+                    <div className="w-full h-full p-2">
+                        <Carousel showThumbs={false} showStatus={false} showIndicators={false}>
+                            <div>
+                                <img src={response} />
+                              
+                            </div>
+                            <div>
+                                <img src={response} />
+                             
+                            </div>
+                            <div>
+                                <img src={response} />
+                                
+                            </div>
+                        </Carousel>
+                        <div className="indicator-container flex justify-center py-10">
+                            <button style={{ backgroundColor: '#7E6BDD' }} className="w-8 h-2 rounded border-none mx-2"></button>
+                            <button className=" w-2 h-2 rounded border-none bg-gray-500 mx-2"></button>
+                            <button className="w-2 h-2 rounded border-none bg-gray-500 mx-2"></button>
                         </div>
+                        <button className="bg-blue-500 text-white px-4 py-2 w-full">Request demo</button>
+
                     </div>
                 </div>
             </div>
