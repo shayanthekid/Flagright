@@ -9,7 +9,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default class Services extends Component {
   render() {
     return (
-        <div style={{ backgroundColor: "#1A1935" }} className="mt-14"  >
+        <div style={{ backgroundColor: "#1A1935" }} className="mt-14 pb-5"  >
             <h2 className="text-left text-3xl font-sans font-semibold  my-4 text-white m-10 pt-10"> What makes Flagright <span style={{ color: '#7E6BDD' }}>different?</span></h2>
             <p className='text-left px-5 my-1 ml-5 text-white'>Flagright's developer friendly API takes developer teams 4 days to integrate. Flaright API is the ultimate AML compliance and fraud prevention layer that enables you to delivery services to your customers at scale using your preferred frameworks</p>
             <div className="grid grid-rows-3 ">
