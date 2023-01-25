@@ -9,12 +9,14 @@ import Services from './components/homepage_components/Services';
 import Partners from './components/homepage_components/Partners';
 import Footer from './components/Footer/Footer';
 import Developers from './components/homepage_components/Developers';
+import Screening from './components/homepage_components/Screening';
 function App() {
   return (
     <div>
       <Navbar />
       <main>
         <HeroSection />
+        <Screening />
         <Sources />
         <Organization />
         <Managment />
