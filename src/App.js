@@ -8,6 +8,7 @@ import Managment from './components/homepage_components/Managment';
 import Services from './components/homepage_components/Services';
 import Partners from './components/homepage_components/Partners';
 import Footer from './components/Footer/Footer';
+import Developers from './components/homepage_components/Developers';
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
         <Sources />
         <Organization />
         <Managment />
+        <Developers />
         <Services />
         <Partners />
         <Footer />
