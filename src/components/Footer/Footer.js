@@ -17,10 +17,10 @@ export default class Footer extends Component {
                     <div className="col-span-1 lg:hidden">
                         <h4 className="text-center font-medium	 text-1xl">Follow us</h4>
                         <div className="grid grid-cols-3 p-5 ml-8">
-                            <div className="col-span-1">     <img src={logo2} alt="Logo" className="object-fit w-50 h-30" />
+                            <div className="col-span-1">     <img src={logo2} alt="linkdin" className="object-fit w-50 h-30" />
                     </div>
-                            <div className="col-span-1">   <img src={logo3} alt="Logo" className="object-fit w-50 h-30" /></div>
-                            <div className="col-span-1">  <img src={logo4} alt="Logo" className="object-fit w-50 h-30" /></div>
+                            <div className="col-span-1">   <img src={logo3} alt="Twitter" className="object-fit w-50 h-30" /></div>
+                            <div className="col-span-1">  <img src={logo4} alt="Medium" className="object-fit w-50 h-30" /></div>
                         </div>
                     </div>
                 </div>
@@ -28,28 +28,28 @@ export default class Footer extends Component {
             <div className="row-span-1 px-5">
                 <h1 className="text-left font-semibold text-2l">Platform</h1>
                 <ul className="text-left text-xs mt-2">
-                    <li className='my-2'><a href="#">Real-time transcation monitoring</a></li>
-                    <li className='my-2'><a href="#">Customer Risk assessment</a></li>
-                    <li className='my-2'><a href="#">Sactions, PEP, AM screening</a></li>
-                    <li className='my-2'><a href="#">ID verification</a></li>
+                    <li className='my-2'><a href="#" onClick={(event) => { event.preventDefault(); }}>Real-time transcation monitoring</a></li>
+                    <li className='my-2'><a href="#" onClick={(event) => { event.preventDefault(); }}>Customer Risk assessment</a></li>
+                    <li className='my-2'><a href="#" onClick={(event) => { event.preventDefault(); }}>Sactions, PEP, AM screening</a></li>
+                    <li className='my-2'><a href="#" onClick={(event) => { event.preventDefault(); }}>ID verification</a></li>
                 </ul>
             </div>
             <div className="row-span-1 px-5 mt-4">
                 <h1 className="text-left font-semibold text-2l">Integrations</h1>
                 <ul className="text-left text-xs mt-2">
-                    <li className=''><a href="#">Blockchain analytics</a></li>
+                    <li className=''><a href="#" onClick={(event) => { event.preventDefault(); }}>Blockchain analytics</a></li>
          
                 </ul>
                 <h1 className="text-left font-semibold text-2l hidden lg:block lg:py-4">Advisory services</h1>
                 <ul className="text-left text-xs mt-2">
-                    <li className=''><a href="#">Launchpad</a></li>
+                    <li className=''><a href="#" onClick={(event) => { event.preventDefault(); }}>Launchpad</a></li>
 
                 </ul>
             </div>
             <div className="row-span-1 px-5 -mt-8 lg:hidden">
                 <h1 className="text-left font-semibold text-2l">Advisory services</h1>
                 <ul className="text-left text-xs mt-2">
-                    <li className=''><a href="#">Launchpad</a></li>
+                    <li className=''><a href="#" onClick={(event) => { event.preventDefault(); }}>Launchpad</a></li>
                
           </ul>
         </div>
@@ -65,10 +65,10 @@ export default class Footer extends Component {
                 <div className="col-span-1  hidden lg:block ">
                     <h4 className="text-center font-medium	 text-1xl">Follow us</h4>
                     <div className="grid grid-cols-3 p-5 ml-8">
-                        <div className="col-span-1">     <img src={logo2} alt="Logo" className="object-fit w-50 h-30" />
+                        <div className="col-span-1">     <img src={logo2} alt="linkdin" className="object-fit w-50 h-30" />
                         </div>
-                        <div className="col-span-1">   <img src={logo3} alt="Logo" className="object-fit w-50 h-30" /></div>
-                        <div className="col-span-1">  <img src={logo4} alt="Logo" className="object-fit w-50 h-30" /></div>
+                        <div className="col-span-1">   <img src={logo3} alt="twitter" className="object-fit w-50 h-30" /></div>
+                        <div className="col-span-1">  <img src={logo4} alt="medium" className="object-fit w-50 h-30" /></div>
                     </div>
                 </div>
 

@@ -29,13 +29,13 @@ export default class HeroSection extends Component {
 
                 </div>
                 <div className="my-2 flex items-center ml-5 lg:hidden  ">
-                    <a href="#" className="text-indigo-500 text-sm px-2 py-1">Learn More</a>
+                    <a href="#" onClick={(event) => { event.preventDefault(); }} className="text-indigo-500 text-sm px-2 py-1">Learn More</a>
                     <svg className="w-5 h-5 -ml-1 text-indigo-500 fill-current" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z" />  </svg>
                 </div>
             </div>
             <div className="row-span-1 p-0 lg:row-span-2 lg:-mt-96 relative">
-                <img src={heroImg} alt="image description" className=" w-full h-full object-cover lg:w-[60%] lg:h-auto lg:ml-auto" />
+                <img src={heroImg} alt="big picture of dashboard" className=" w-full h-full object-cover lg:w-[60%] lg:h-auto lg:ml-auto" />
             </div>
         </div>
     )

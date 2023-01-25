@@ -16,7 +16,7 @@ export default class Services extends Component {
             <div className="grid grid-rows-3 ">
                 <div className="row-span-1 mx-10 mt-8 flex items-start ">
                     <div className="">
-                        <img src={rocket} className="w-8 h-8 mr-2 mb-2 " alt="item1 " />
+                        <img src={rocket} className="w-8 h-8 mr-2 mb-2 " alt="rocket " />
                         <div>
                             <h3 className="text-lg font-medium text-white ">Go live in 4 days</h3>
                             <p className="text-sm text-white">
@@ -26,7 +26,7 @@ Quickest integration in the world. 85% faster than industry benchmark. Our compe
                 </div>
                 <div className="row-span-1 mx-10 mt-8 flex items-start">
                     <div className="">
-                        <img src={cloud} className="w-8 h-8 mr-2 mb-2" alt="item1" />
+                        <img src={cloud} className="w-8 h-8 mr-2 mb-2" alt="cloud" />
                         <div>
                             <h3 className="text-lg font-medium text-white">One powerful API</h3>
                             <p className="text-sm text-white">
@@ -37,7 +37,7 @@ A unified, standardized API for all suscpicious acitivty detection use cases.
                 </div>
                 <div className="row-span-1 mx-10 mt-8 flex items-start">
                     <div className="">
-                        <img src={bolt} className="w-8 h-8 mr-2 mb-2" alt="item1" />
+                        <img src={bolt} className="w-8 h-8 mr-2 mb-2" alt="bolt" />
                         <div>
                             <h3 className="text-lg font-medium text-white">Always real-time</h3>
                             <p className="text-sm text-white">
@@ -47,7 +47,7 @@ Flagright API is always fast at no additional cost even for complex use cases.  
                 </div>
                 <div className="row-span-1 mx-10 mt-8 flex items-start">
                     <div className="">
-                        <img src={usage} className="w-10 h-10 mr-2 mb-2" alt="item1" />
+                        <img src={usage} className="w-10 h-10 mr-2 mb-2" alt="usage" />
                         <div>
                             <h3 className="text-lg font-medium text-white">Usage-based pricing</h3>
                             <p className="text-sm text-white">
@@ -59,15 +59,15 @@ Flagright API is always fast at no additional cost even for complex use cases.  
                     <div className="w-full h-full p-2">
                         <Carousel showThumbs={false} showStatus={false} showIndicators={false}>
                             <div>
-                                <img src={response} />
+                                <img src={response} alt="response 1" />
                               
                             </div>
                             <div>
-                                <img src={response} />
+                                <img src={response} alt = "response 2"/>
                              
                             </div>
                             <div>
-                                <img src={response} />
+                                <img src={response} alt = "respone 3" />
                                 
                             </div>
                         </Carousel>

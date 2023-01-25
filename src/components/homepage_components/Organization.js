@@ -12,7 +12,7 @@ export default class Organization extends Component {
             <div className="grid grid-rows-3 lg:grid-cols-3 lg:grid-gap-1/2 lg:px-96 lg:mt-16 lg:grid-rows-1 lg:py-12 lg:justify-center lg:items-center ">
                 <div className="row-span-1 m-10 flex items-start lg:justify-center lg:justify-self-center ">
                     <div className="">
-                        <img src={gavel} className="w-10 h-10 mr-2 mb-2  " alt="item1 " />
+                        <img src={gavel} className="w-10 h-10 mr-2 mb-2  " alt="gavel logo " />
                         <div>
                             <h3 className="text-lg font-medium text-white ">Sanctions</h3>
                             <p className="text-sm text-white">Global data about financial penalties imposed on institutions by governments.</p>
@@ -21,7 +21,7 @@ export default class Organization extends Component {
                 </div>
                 <div className="row-span-1 m-10 flex items-start lg:justify-center lg:justify-self-center">
                     <div className="">
-                        <img src={court} className="w-10 h-10 mr-2 mb-2" alt="item1" />
+                        <img src={court} className="w-10 h-10 mr-2 mb-2" alt="court logo" />
                         <div>
                             <h3 className="text-lg font-medium text-white">PEP</h3>
                             <p className="text-sm text-white">Identify politically exposed parties and accurately asses your customer's risk exposure.</p>
@@ -30,7 +30,7 @@ export default class Organization extends Component {
                 </div>
                 <div className="row-span-1 m-10 flex items-start lg:justify-center lg:justify-self-center">
                     <div className="">
-                        <img src={news} className="w-10 h-10 mr-2 mb-2" alt="item1" />
+                        <img src={news} className="w-10 h-10 mr-2 mb-2" alt="news logo" />
                         <div>
                             <h3 className="text-lg font-medium text-white">Adverse Media</h3>
                             <p className="text-sm text-white">View negative mentions of business and consumer users in the news</p>

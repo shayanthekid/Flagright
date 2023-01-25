@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import CodeSnippet from 'react-code-snippet'
 import { CodeBlock, atomOneDark } from "react-code-blocks";
 let code = `transactionId: "7b80a539eea6e78acbd6d458e5971482",
 sendingAmount Details: {
@@ -42,12 +41,12 @@ export default class Developers extends Component {
 
                     <p>Meet the industry's most robust REST API. Powerful, centralized system <br /> abstracted into a single, easy-to-use API. Integrate end-to-end within 4 days</p>
                     <div className="flex items-center  ">
-                        <a href="#" className="text-indigo-500 text-sm pr-2 py-4 text-white">Read API Docs</a>
+                        <a href="#" onClick={(event) => { event.preventDefault(); }} className="text-indigo-500 text-sm pr-2 py-4 text-white">Read API Docs</a>
                         <svg className="w-5 h-5 -ml-1 text-indigo-500 fill-current" viewBox="0 0 20 20" fill="currentColor">
                             <path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z" />  </svg>
                     </div>
                     <div className="flex items-center  ">
-                        <a href="#" className="text-indigo-500 text-sm pr-2  text-white">Get an API key</a>
+                        <a href="#" onClick={(event) => { event.preventDefault();  }} className="text-indigo-500 text-sm pr-2  text-white">Get an API key</a>
                         <svg className="w-5 h-5 -ml-1 text-indigo-500 fill-current" viewBox="0 0 20 20" fill="currentColor">
                             <path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z" />  </svg>
                     </div>

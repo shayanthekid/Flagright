@@ -15,10 +15,10 @@ export default class Sources extends Component {
                 <p className="mx-10 my-1 mb-10 text-left lg:text-center ">We support and frequently update our  data sources from global lists including OFAC, HM <br className="hidden lg:block" /> Treasury, UN and EU to deliver you relevant and up-to-date information</p>
             </div>
             <div className="row-span-2 grid grid-cols-2 lg:grid-cols-4 justify-center items-center lg:grid-gap-1/2 lg:px-96 lg:my-20">
-                <img src={logo1} className="object-fit w-20 h-20  my-2 mx-auto lg:my-0 lg:w-16 lg:h-16" alt="image1" />
-                <img src={logo4} className="object-fit w-20 h-20 my-2 mx-auto lg:my-0 lg:w-16 lg:h-16" alt="image2" />
-                <img src={logo2} className="object-fit w-20 h-20 my-2 mx-auto lg:my-0 lg:w-16 lg:h-16" alt="image2" />
-                <img src={logo3} className="object-fit w-20 h-20 my-2 mx-auto lg:my-0 lg:w-16 lg:h-16" alt="image2" />
+                <img src={logo1} className="object-fit w-20 h-20  my-2 mx-auto lg:my-0 lg:w-16 lg:h-16" alt="treasury" />
+                <img src={logo4} className="object-fit w-20 h-20 my-2 mx-auto lg:my-0 lg:w-16 lg:h-16" alt="eu" />
+                <img src={logo2} className="object-fit w-20 h-20 my-2 mx-auto lg:my-0 lg:w-16 lg:h-16" alt="un" />
+                <img src={logo3} className="object-fit w-20 h-20 my-2 mx-auto lg:my-0 lg:w-16 lg:h-16" alt="hm treasury" />
             </div>
         </div>
     )
