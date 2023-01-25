@@ -4,7 +4,7 @@ import heroImg from '../../assets/images/heroimg2.png';
 export default class HeroSection extends Component {
   render() {
     return (
-        <div style={{ backgroundColor: "#f8fafe" }} className="grid grid-rows-2 justify-center items-center  h-screen p-7 mt-5 lg:justify-left items-left">
+        <div style={{ backgroundColor: "#f8fafe" }} className="grid grid-rows-1 justify-center items-center h-screen p-7 mt-5 lg:justify-left items-left">
             <div className="row-span-1 lg:pr-96 lg:mt-44  ">
                 <h1 className="font-sans font-bold text-left text-3xl p-3 lg:w-3/5 ">
                     Sanctions, PEP and media checks on a centralized platform <span className='lg:hidden'> for all AML compliance needs </span>

@@ -45,8 +45,8 @@ Streamline screening & case management                </h1>
                 </div>
                 
             </div>
-            <div className="row-span-1 mt-10 lg:row-span-2 lg:-mt-96 relative ">
-                <img src={picture} alt="dashboard " className=" w-full h-full object-cover  lg:w-1/2 lg:h-auto lg:ml-auto  lg:mt-0" />
+            <div className="row-span-1 py-10 mt-5  lg:row-span-2 lg:-mt-96 relative ">
+                <img src={picture} alt="dashboard " className=" w-72 h-72 object-cover  lg:w-1/2 lg:h-auto lg:ml-auto  lg:mt-0" />
             </div>
         </div>
     )
