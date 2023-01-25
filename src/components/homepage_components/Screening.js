@@ -20,7 +20,7 @@ export default class Screening extends Component {
                           
                         </div>
                         <div className="my-2 flex items-center ml-5   ">
-                            <a href="#" onClick={(event) => { event.preventDefault(); }} className="text-blue-500 text-base font-bold px-2 py-1 mt-2">Learn More</a>
+                            <a href={() => false} onClick={(event) => { event.preventDefault(); }} className="text-blue-500 text-base font-bold px-2 py-1 mt-2">Learn More</a>
                             <svg className="w-5 h-5 -ml-1 mt-2 text-blue-500 fill-current" viewBox="0 0 20 20" fill="currentColor">
                                 <path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z" />  </svg>
                         </div>
@@ -34,7 +34,7 @@ export default class Screening extends Component {
                          
                         </div>
                         <div className="my-2 flex items-center ml-5   ">
-                            <a href="#" onClick={(event) => { event.preventDefault(); }}  className="text-blue-500 text-base font-bold px-2 py-1 mt-2">Learn More</a>
+                            <a href={() => false} onClick={(event) => { event.preventDefault(); }}  className="text-blue-500 text-base font-bold px-2 py-1 mt-2">Learn More</a>
                             <svg className="w-6 h-6 -ml-1 mt-2 text-blue-500 fill-current" viewBox="0 0 20 20" fill="currentColor">
                                 <path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z" />  </svg>
                         </div>
@@ -44,7 +44,7 @@ export default class Screening extends Component {
 
                 </div>
                 <div className="row-span-1 mt-10 lg:row-span-2 lg:-mt-96 relative ">
-                    <img src={picture} alt="image description" className=" w-full h-full object-cover  lg:w-1/2 lg:h-auto lg:ml-auto  lg:mt-0" />
+                    <img src={picture} alt="description dashboard" className=" w-full h-full object-cover  lg:w-1/2 lg:h-auto lg:ml-auto  lg:mt-0" />
                 </div>
             </div>
         

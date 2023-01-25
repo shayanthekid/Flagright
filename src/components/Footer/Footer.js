@@ -28,28 +28,28 @@ export default class Footer extends Component {
             <div className="row-span-1 px-5">
                 <h1 className="text-left font-semibold text-2l">Platform</h1>
                 <ul className="text-left text-xs mt-2">
-                    <li className='my-2'><a href="#" onClick={(event) => { event.preventDefault(); }}>Real-time transcation monitoring</a></li>
-                    <li className='my-2'><a href="#" onClick={(event) => { event.preventDefault(); }}>Customer Risk assessment</a></li>
-                    <li className='my-2'><a href="#" onClick={(event) => { event.preventDefault(); }}>Sactions, PEP, AM screening</a></li>
-                    <li className='my-2'><a href="#" onClick={(event) => { event.preventDefault(); }}>ID verification</a></li>
+                    <li className='my-2'><a href={() => false} onClick={(event) => { event.preventDefault(); }}>Real-time transcation monitoring</a></li>
+                    <li className='my-2'><a href={() => false} onClick={(event) => { event.preventDefault(); }}>Customer Risk assessment</a></li>
+                    <li className='my-2'><a href={() => false} onClick={(event) => { event.preventDefault(); }}>Sactions, PEP, AM screening</a></li>
+                    <li className='my-2'><a href={() => false} onClick={(event) => { event.preventDefault(); }}>ID verification</a></li>
                 </ul>
             </div>
             <div className="row-span-1 px-5 mt-4">
                 <h1 className="text-left font-semibold text-2l">Integrations</h1>
                 <ul className="text-left text-xs mt-2">
-                    <li className=''><a href="#" onClick={(event) => { event.preventDefault(); }}>Blockchain analytics</a></li>
+                    <li className=''><a href={() => false} onClick={(event) => { event.preventDefault(); }}>Blockchain analytics</a></li>
          
                 </ul>
                 <h1 className="text-left font-semibold text-2l hidden lg:block lg:py-4">Advisory services</h1>
                 <ul className="text-left text-xs mt-2">
-                    <li className=''><a href="#" onClick={(event) => { event.preventDefault(); }}>Launchpad</a></li>
+                    <li className=''><a href={() => false} onClick={(event) => { event.preventDefault(); }}>Launchpad</a></li>
 
                 </ul>
             </div>
             <div className="row-span-1 px-5 -mt-8 lg:hidden">
                 <h1 className="text-left font-semibold text-2l">Advisory services</h1>
                 <ul className="text-left text-xs mt-2">
-                    <li className=''><a href="#" onClick={(event) => { event.preventDefault(); }}>Launchpad</a></li>
+                    <li className=''><a href={() => false}  onClick={(event) => { event.preventDefault(); }}>Launchpad</a></li>
                
           </ul>
         </div>
