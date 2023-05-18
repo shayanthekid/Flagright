@@ -4,7 +4,7 @@ import picture from '../../assets/images/Group 4.png';
 export default class Screening extends Component {
   render() {
     return (
-        <div className=' bg-[#1A1935] '>
+        <div className=' bg-[#0e0d1c] py-10 '>
             <h2 className="text-left text-4xl font-sans font-semibold  my-4 text-white m-10 pt-10 lg:text-center">Our Portfolio</h2>
             <hr className="w-36 h-0.5 mx-auto my-2 bg-yellow-400 border-0 rounded md:my-10 dark:bg-yellow-400 hidden md:block" />
 

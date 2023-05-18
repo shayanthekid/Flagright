@@ -9,7 +9,9 @@ export default class Sources extends Component {
     return (
         <div className="grid grid-rows-2 bg-neutral-50 lg:p-32">
             <div className="row-span-2">
-                <h1 className="font-sans font-bold text-left text-3xl mx-10 mb-5 lg:text-center ">Pricing</h1>
+                <h1 className="font-sans font-bold text-left text-4xl mx-10 mb-5 lg:text-center ">Pricing</h1>
+                <hr className="w-36 h-0.5 mx-auto my-2 bg-yellow-400 border-0 rounded md:my-10 dark:bg-yellow-400 hidden md:block" />
+
             </div>
             <div className="flex flex-wrap justify-between ">
 
