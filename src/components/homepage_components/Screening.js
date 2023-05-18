@@ -4,7 +4,7 @@ import picture from '../../assets/images/Group 4.png';
 export default class Screening extends Component {
   render() {
     return (
-        <div style={{ backgroundColor: "#F8FAFE" }} className='hidden lg:block py-28'>
+        <div className='hidden lg:block py-28 '>
             <div className="grid grid-rows-2 justify-center items-center h-screen p-7 mt-5 -mb-20">
                 <div className="row-span-1 lg:pr-96 lg:mt-44 lg:mr-44">
                     <h1 className="font-sans font-bold text-left text-3xl p-3 lg:w-3/5">

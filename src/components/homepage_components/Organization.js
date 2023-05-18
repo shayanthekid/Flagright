@@ -7,8 +7,8 @@ import news from '../../assets/images/news.png';
 export default class Organization extends Component {
   render() {
     return (
-        <div style={{ backgroundColor: "#1A1935" }} className="mt-14 "  >
-            <h2 className="text-left text-3xl font-sans font-semibold  my-4 text-white m-10 pt-10 lg:text-center"><span style={{ color: '#7E6BDD' }}>Protect</span>  your organization and users</h2>
+        <div className="-mt-10 bg-slate-50	 "  >
+            <h2 className="text-left text-3xl font-sans font-semibold  my-4 text-black m-10 pt-10 lg:text-center">Our services</h2>
             <div className="grid grid-rows-3 lg:grid-cols-3 lg:grid-gap-1/2 lg:px-96 lg:mt-16 lg:grid-rows-1 lg:py-12 lg:justify-center lg:items-center ">
                 <div className="row-span-1 m-10 flex items-start lg:justify-center lg:justify-self-center ">
                     <div className="">

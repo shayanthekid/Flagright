@@ -16,6 +16,7 @@ function App() {
       <Navbar />
       <main>
         <HeroSection />
+        <Organization />
         <Screening />
         <Sources />
         <Organization />
