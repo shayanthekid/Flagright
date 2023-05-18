@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import court from '../../assets/images/chrome.png';
 import gavel from '../../assets/images/code.png';
-import news from '../../assets/images/news.png';
+// import news from '../../assets/images/news.png';
 
 
 export default class Organization extends Component {

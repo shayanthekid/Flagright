@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import picture from '../../assets/images/Group3.png';
+// import picture from '../../assets/images/Group3.png';
 
 export default class Managment extends Component {
   render() {

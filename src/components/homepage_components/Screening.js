@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import picture from '../../assets/images/Group 4.png';
+// import picture from '../../assets/images/Group 4.png';
 
 export default class Screening extends Component {
   render() {

@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import logo1 from '../../assets/images/logos/OFAC.png';
-import logo2 from '../../assets/images/logos/EU.png';
-import logo3 from '../../assets/images/logos/UN.png';
-import logo4 from '../../assets/images/logos/FCA.png';
+// import logo1 from '../../assets/images/logos/OFAC.png';
+// import logo2 from '../../assets/images/logos/EU.png';
+// import logo3 from '../../assets/images/logos/UN.png';
+// import logo4 from '../../assets/images/logos/FCA.png';
 
 export default class Sources extends Component {
   render() {
