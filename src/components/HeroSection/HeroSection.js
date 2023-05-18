@@ -31,7 +31,7 @@ export default class HeroSection extends Component {
                 </div>
                 <div className="my-2 flex items-center ml-2 mt-10">
                
-                    <button className="flex items-center justify-center px-4 py-2 text-base font-bold text-gray-800 bg-gray-200 rounded hover:bg-gray-300 focus:outline-none focus:bg-gray-300">
+                    <button className="flex items-center justify-center px-4 py-2 text-base font-bold text-white bg-[#B2B6BD] rounded hover:bg-gray-300 focus:outline-none focus:bg-gray-300">
                         Get quotation
                         
                     </button>
