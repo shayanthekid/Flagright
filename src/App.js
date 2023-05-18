@@ -10,6 +10,8 @@ import Partners from './components/homepage_components/Partners';
 import Footer from './components/Footer/Footer';
 import Developers from './components/homepage_components/Developers';
 import Screening from './components/homepage_components/Screening';
+import 'flowbite';
+
 function App() {
   return (
     <div>
@@ -19,11 +21,7 @@ function App() {
         <Organization />
         <Screening />
         <Sources />
-        <Organization />
-        <Managment />
-        <Developers />
-        <Services />
-        <Partners />
+        <Managment /> 
         <Footer />
       </main>
     </div>

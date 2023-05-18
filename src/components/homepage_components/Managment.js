@@ -5,49 +5,39 @@ export default class Managment extends Component {
   render() {
     return (
         <div style={{ backgroundColor: "#f8fafe" }} className="grid grid-rows-2 justify-center items-center h-screen p-7 mt-5 -mb-20">
-            <div className="row-span-1 lg:pr-96 lg:mt-44 lg:mr-44">
-                <h1 className="font-sans font-bold text-left text-3xl p-3 lg:w-3/5">
-Streamline screening & case management                </h1>
-                <div className="row-span-2 text-left p-2">
-                    <div className="my-2 flex items-start p-1 lg:py-4">
-                        <div className="bg-blue-500 rounded-full w-5 h-5 flex items-center justify-center mr-2 ">
-                            <svg className="w-5 h-5 text-white fill-current" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
-                            </svg>
-                        </div>
-                        <p className='' >Automatically screen all new customers</p>
+
+            <form>
+                <div class="grid gap-6 mb-6 md:grid-cols-2">
+                    <div>
+                        <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
+                        <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required />
                     </div>
-                    <div className="my-2 flex items-start p-1 lg:py-4">
-                        <div className="bg-blue-500 rounded-full w-5 h-5 flex items-center justify-center mr-2">
-                            <svg className="w-5 h-5 text-white fill-current rounded-full" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
-                            </svg>
-                        </div>
-                        <p>Get a complete, unified picture of risky customers and transactions</p>
+                    <div>
+                        <label for="last_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Last name</label>
+                        <input type="text" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Doe" required />
                     </div>
-                    <div className="my-2 flex items-start p-1 lg:py-4">
-                        <div className="bg-blue-500 rounded-full w-5 h-5 flex items-center justify-center mr-2">
-                            <svg className="w-5 h-5 text-white fill-current" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
-                            </svg>
-                        </div>
-                        <p >Flexible configuration options to minimize false positives</p>
+                    <div>
+                        <label for="company" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Company</label>
+                        <input type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Flowbite" required />
                     </div>
-                    <div className="my-2 flex items-start p-1 lg:py-4">
-                        <div className="bg-blue-500 rounded-full w-5 h-5 flex items-center justify-center mr-2">
-                            <svg className="w-5 h-5 text-white fill-current" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
-                            </svg>
-                        </div>
-                        <p >Enable ongoing monitoring and let Flagright inform <br className="hidden lg:block" /> you on evolving customer risks automatically</p>
+                    <div>
+                        <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone number</label>
+                        <input type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
                     </div>
-                  
+                    <div>
+                        <label for="website" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Website URL</label>
+                        <input type="url" id="website" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="flowbite.com" required />
+                    </div>
+                    <div>
+                        <label for="visitors" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Unique visitors (per month)</label>
+                        <input type="number" id="visitors" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required />
+                    </div>
                 </div>
-                
-            </div>
-            <div className="row-span-1 py-10 mt-5  lg:row-span-2 lg:-mt-96 relative ">
-                <img src={picture} alt="dashboard " className=" w-72 h-72 object-cover  lg:w-1/2 lg:h-auto lg:ml-auto  lg:mt-0" />
-            </div>
+            
+                <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+            </form>
+
+            
         </div>
     )
   }

@@ -31,11 +31,10 @@ export default class HeroSection extends Component {
                 </div>
                 <div className="my-2 flex items-center ml-2 mt-10">
                
-                    <button className="flex items-center justify-center px-4 py-2 text-base font-bold text-white bg-[#B2B6BD] rounded hover:bg-gray-300 focus:outline-none focus:bg-gray-300">
-                        Get quotation
-                        
-                    </button>
+                    <button type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Get Quotation</button>
 
+
+                    
                 </div>
             </div>
             <div className="row-span-1 p-0 lg:row-span-2 lg:-mt-96 lg:-mr-52 relative ">
