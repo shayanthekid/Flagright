@@ -18,8 +18,9 @@ function App() {
       <Navbar />
       <main>
         <HeroSection />
-        <Organization />
         <Screening />
+        <Organization />
+    
         <Sources />
         <Managment /> 
         <Footer />
